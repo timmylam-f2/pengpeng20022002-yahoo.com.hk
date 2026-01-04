@@ -1,0 +1,5 @@
+{
+  "name": "Copy of MathFactor - AI Factorization Quiz",
+  "description": "A high-end, AI-powered mathematics quiz platform specialized in algebraic factorization. It uses Gemini to verify complex mathematical expressions and provide instant feedback.",
+  "requestFramePermissions": []
+}
