@@ -1,4 +1,6 @@
 
+export type Difficulty = 'EASY' | 'MEDIUM' | 'HARD';
+
 export interface Question {
   id: number;
   expression: string;
@@ -12,7 +14,7 @@ export interface QuizState {
   score: number;
   isFinished: boolean;
   userAnswers: string[];
-  feedback: { correct: boolean; message: string } | null;
+  feedback: { correct: boolean; explanation: string } | null;
   loading: boolean;
 }
 
